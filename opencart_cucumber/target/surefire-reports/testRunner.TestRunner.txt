@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 10.85 s <<< FAILURE! -- in testRunner.TestRunner
+Login with Valid Credentials.Successful Login with Valid Credentials -- Time elapsed: 1.846 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at pageObjects.HomePage.clickMyAccount(HomePage.java:33)
+	at stepDefinitions.LoginSteps.user_navigate_to_login_page(LoginSteps.java:33)
+	at ✽.the user navigates to login page(file:///C:/WorkSpace/SeleniumWebDriver/opencart_cucumber/opencart_cucumber/./Features/Login.feature:5)
+
+Login with Valid Credentials.Login Data Driven #1 -- Time elapsed: 0.062 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at pageObjects.HomePage.clickMyAccount(HomePage.java:33)
+	at stepDefinitions.LoginSteps.user_navigate_to_login_page(LoginSteps.java:33)
+	at ✽.the user navigates to login page(file:///C:/WorkSpace/SeleniumWebDriver/opencart_cucumber/opencart_cucumber/./Features/Login.feature:12)
+
+Login with Valid Credentials.Login Data Driven #2 -- Time elapsed: 0.054 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at pageObjects.HomePage.clickMyAccount(HomePage.java:33)
+	at stepDefinitions.LoginSteps.user_navigate_to_login_page(LoginSteps.java:33)
+	at ✽.the user navigates to login page(file:///C:/WorkSpace/SeleniumWebDriver/opencart_cucumber/opencart_cucumber/./Features/Login.feature:12)
+
+Account Registration.Successful Account Registration -- Time elapsed: 0.083 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at pageObjects.HomePage.clickMyAccount(HomePage.java:33)
+	at stepDefinitions.RegistrationSteps.user_navigates_to_register_account_page(RegistrationSteps.java:29)
+	at ✽.the user navigates to Register Account page(file:///C:/WorkSpace/SeleniumWebDriver/opencart_cucumber/opencart_cucumber/./Features/Registration.feature:5)
+
